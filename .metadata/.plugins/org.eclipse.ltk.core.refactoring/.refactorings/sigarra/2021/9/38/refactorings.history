@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;br.com.sigarra.sigarra.rest.exception.ApiErros&apos; to &apos;ApiErrors&apos;&#x0D;&#x0A;- Original project: &apos;sigarra&apos;&#x0D;&#x0A;- Original element: &apos;br.com.sigarra.sigarra.rest.exception.ApiErros&apos;&#x0D;&#x0A;- Renamed element: &apos;br.com.sigarra.sigarra.rest.exception.ApiErrors&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ApiErros&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;br.com.sigarra.sigarra.rest.exception{ApiErros.java[ApiErros" matchStrategy="1" name="ApiErrors" qualified="false" references="true" similarDeclarations="false" stamp="1631974484092" textual="false" version="1.0"/>
+</session>

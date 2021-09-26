@@ -1,0 +1,6 @@
+package br.com.sigarra.sigarra.rest.exception;
+
+public class ApiErros {
+	
+	
+}

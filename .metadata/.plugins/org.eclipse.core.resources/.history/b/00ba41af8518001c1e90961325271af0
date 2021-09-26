@@ -1,0 +1,15 @@
+package br.com.sigarra.sigarra.rest.exception;
+
+import java.util.List;
+
+import lombok.Getter;
+
+public class ApiErros {
+	
+	@Getter
+	private List<String> errors;
+	
+	public ApiErros(List<String> errors) {
+		this.erros = erros;
+	}
+}

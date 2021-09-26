@@ -1,0 +1,12 @@
+package br.com.sigarra.sigarra.rest;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import br.com.sigarra.sigarra.model.repository.ClienteRepository;
+
+@RestController
+public class ClienteController {
+	
+	private  ClienteRepository repository;
+
+}
