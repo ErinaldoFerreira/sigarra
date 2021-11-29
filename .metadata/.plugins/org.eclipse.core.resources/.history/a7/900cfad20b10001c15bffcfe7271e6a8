@@ -1,5 +1,0 @@
-package br.com.sigarra.sigarra.model.repository;
-
-public interface ClienteRepository {
-
-}

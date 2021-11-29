@@ -1,8 +1,0 @@
-package br.com.sigarra.sigarra.rest.exception;
-
-import java.util.List;
-
-public class ApiErros {
-	
-	private List<String> errors;
-}

@@ -1,0 +1,15 @@
+package br.com.sigarra.sigarra.rest.dto;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+public class ServicoPrestadoDTO {
+	@No
+	private String descricao;
+	private String preco;
+	private String data;
+	private Integer idCliente;
+
+}

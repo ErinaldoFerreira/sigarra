@@ -32,7 +32,7 @@ public class Pedido {
 	
 	@JoinColumn(name = "id_servico")
 	@ManyToMany
-	private List<Servico> itens = new ArrayList<>();
+	private List<ServicoPrestado> itens = new ArrayList<>();
 	
 	
 	@JoinColumn(name = "id_cliente")

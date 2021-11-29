@@ -1,0 +1,20 @@
+package br.com.sigarra.sigarra.rest;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import br.com.sigarra.sigarra.model.entity.ServicoPrestado;
+import br.com.sigarra.sigarra.rest.dto.ServicoPrestadoDTO;
+
+@RestController
+@RequestMapping("/api/servicos-prestados")
+public class ServicoPrestadoController {
+	
+	@PostMapping
+	public ServicoPrestado salvar(@RequestBody ServicoPrestadoDTO dto) {
+		
+	}
+
+}
